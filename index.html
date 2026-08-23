@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">BMI Calculator</div>
+        <div class="content">
+            <div class="column input">            
+                <input type="text" id="weight" placeholder="Weight (kg)" required>
+                <input type="text" id="height" placeholder="Height (cm)" required>
+                <button id="calculate">Calculate BMI</button>    
+                <button id="clear">Clear</button>
+            </div>
+            <div class="column result">
+                <div class="image"><img src="img/bmi-cover.png" alt="BMI Chart" class="bmi-chart"></div>
+                <div class="output">ENTER YOUR WEIGHT AND HEIGHT</div>                
+            </div>            
+        </div>
+        <div class="footnote">
+                <p>The results provided by this BMI calculator are for reference purposes only and should not replace professional medical advice. For accurate health evaluations, please consult your doctor or healthcare professional.</p>
+            </div>
+    </div>    
+</body>
+</html>
